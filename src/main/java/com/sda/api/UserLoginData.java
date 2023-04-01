@@ -3,7 +3,7 @@ package com.sda.api;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
-import lombok.Value;
+
 
 @Getter
 @AllArgsConstructor

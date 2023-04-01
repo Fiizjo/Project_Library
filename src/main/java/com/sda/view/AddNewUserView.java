@@ -1,5 +1,6 @@
 package com.sda.view;
 
+import com.sda.api.NewUserData;
 import com.sda.controller.AddNewUserController;
 
 import java.util.Scanner;
@@ -21,6 +22,7 @@ public class AddNewUserView implements View {
         System.out.println("Provide your email");
         //scanner + walidacja;
 
+        return null;
     }
 
 }

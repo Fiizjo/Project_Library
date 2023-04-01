@@ -1,6 +1,6 @@
 package com.sda.model;
 
-import com.sda.model.Author;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.EqualsAndHashCode;

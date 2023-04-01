@@ -9,7 +9,7 @@ import java.io.FileNotFoundException;
 import java.util.Optional;
 import java.util.Scanner;
 
-public class LoginView implements View{
+public class LoginView implements View {
 
     private Scanner scanner;
     private UserLoginController userLoginController;

@@ -10,7 +10,7 @@ import com.sda.view.View;
 
 import java.util.Optional;
 
-public class UserLoginControllerImpl implements UserLoginController{
+public class UserLoginControllerImpl implements UserLoginController {
 
     private UserLoginChecker userLoginChecker;
 
