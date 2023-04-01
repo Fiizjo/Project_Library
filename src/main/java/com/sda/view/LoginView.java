@@ -33,7 +33,7 @@ public class LoginView implements View {
     }
     UserLoginData getData() {
         message.ifPresent(System.out::println);
-        System.out.println("Podja login");
+        System.out.println("Podaj login");
         String login = scanner.nextLine();
         System.out.println("Podaj hasło");
         String password = scanner.nextLine();

@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -28,6 +29,12 @@ public class UserFileProvider implements UserProvider {
         Set<User> users = new HashSet<>();
         addAllUsersFromFileToSet(users);
         return users;
+    }
+
+    public Optional<User> findUserByLogin(String login) {
+        return getAllUsers().stream()
+                .filter(user -> user.getLogin().equals(login))
+                .findFirst();
     }
 
     private void addAllUsersFromFileToSet(Set<User> users) {
